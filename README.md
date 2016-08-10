@@ -1,8 +1,8 @@
-# CommandBook
-Plugin for Cuberite written in Lua.
-It's in development. By the moment I'm trying new things and I will develop this "copying" plugins like Essentials(Bukkit) or CommandBook.
+# InventorySpy
+Plugin for see the inventory of other player and modify it.
+Note: I have changed to InventorySpy because I don't have time to do something like CommandBook.
 
-### Features (by the moment)
+### Features
 - Command /inventory <user> to inspect a inventory of other player and change it.
 
 ### Commands

@@ -2,14 +2,14 @@
 -- info.lua
 
 g_PluginInfo = {
-    Name = "CommandBook(BETA)",
-    Description = "Plugin that includes a lot of commands for the regular use.",
+    Name = "InventorySpy",
+    Description = "Plugin for see the inventory of other player and modify it.",
     Version = 0.1,
     
     Commands = {
         ["/inventory"] =
         {
-            Permission = "cb.inventory",
+            Permission = "invspy.inventory",
             HelpString = "Open the inventary of the other player.",
             Handler = HandleInventoryCommand,
             Alias = { "/invsee", "/inv" }
@@ -18,7 +18,7 @@ g_PluginInfo = {
     
     Permissions =
     {
-        ["cb.inventory"] =
+        ["invspy.inventory"] =
         {
             Description = "Allows to open others users inventories and modify them.",
             RecommendedGroups = "Admins, mods"

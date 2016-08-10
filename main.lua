@@ -10,16 +10,15 @@ function Initialize(Plugin)
     Plugin:SetVersion(g_PluginInfo.Version)
     
     -- Adding hooks
-    --cPluginManager:AddHook(cPluginManager.HOOK_TICK, f_MobHealth)
+    --
     
-    -- Load only if the .lua file is placed in the directory.
+    -- Register commands handlers from Info.lua
     RegisterPluginInfoCommands()
     --RegisterPluginInfoConsoleCommands()
     
     -- Initializing in console
     LOG("Initialized: " .. g_PluginInfo.Name .. " v." .. g_PluginInfo.Version)
 
-    -- Ending plugin
     return true
 end
 
@@ -27,6 +26,3 @@ end
 function OnDisable()
     LOG("Disabled " .. g_PluginInfo.Name .. " v." .. g_PluginInfo.Version)
 end
-
-
-

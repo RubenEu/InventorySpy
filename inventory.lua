@@ -72,7 +72,7 @@ function HandleInventoryCommand(Split, a_Player)
     end
     
     
-    -- Find player and check if him is online.
+    -- Find player and check if he is online/exists.
     Player_inspected = cRoot:Get():FindAndDoWithPlayer(Split[2], getInventory)
     if not Player_inspected then
         a_Player:SendMessageFailure("The selected user is offline or not exist.")

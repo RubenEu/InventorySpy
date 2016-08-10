@@ -20,7 +20,7 @@ g_PluginInfo = {
     {
         ["cb.inventory"] =
         {
-            Description = "Allows the user to open others users inventories and can modify them.",
+            Description = "Allows to open others users inventories and modify them.",
             RecommendedGroups = "Admins, mods"
         },
     }
